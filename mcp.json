@@ -1,0 +1,51 @@
+{
+  "name": "william-sanders-ai-mcp",
+  "version": "1.0.0",
+  "description": "William H. Sanders AI Model Context Protocol Server for Autonomous Resilient & Dependable Computing, Critical Infrastructure Protection, Smart Grid Security & Quantitative Security Protocol",
+  "tools": [
+    {
+      "name": "audit_critical_infrastructure_dependability",
+      "description": "Model power grid SCADA control loops and industrial IoT sensor networks using stochastic activity networks to verify mean-time-to-failure resilience",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "infrastructure_model": {
+            "type": "string"
+          },
+          "stochastic_distribution": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "infrastructure_model"
+        ]
+      }
+    },
+    {
+      "name": "disburse_smart_grid_resilience_grant",
+      "description": "Trigger automated micro-escrow releases for industrial control system testbeds, fault-tolerant grid micro-controllers, and dependable computing models",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
